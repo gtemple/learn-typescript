@@ -15,3 +15,7 @@ export function arrayMutate(
 const myNewMutateFunc: MutationFunction = (v: number) => v  * 100;
 
 console.log(arrayMutate([1, 2, 3], (v) => v * 10));
+
+export function createAdder(num: number) {
+  return (val: number) => num + val
+}
