@@ -35,4 +35,4 @@ function sendEvent(name: string, data: unknown): void {
   console.log(name, JSON.stringify(data))
 }
 
-sendEvent("checkout", {cardCount: 123})
+sendEvent("checkout", {cardCount: 123}) 
